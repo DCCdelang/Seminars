@@ -42,12 +42,7 @@ def upper_case(string):
     """
 
     ### your code starts here
-    string = list(lower_case(string))
-    
-    for index in range(len(string)):
-        string[index] = string[index].lower()
-   
-    lower_string = "".join(string)
+    upper_string = string.upper()
     ### your code ends here
 
-    return lower_string
+    return upper_string
