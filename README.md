@@ -15,7 +15,11 @@ Everyone follows the instructions in their script. Once you have pushed all your
 
 def function_2b(string_1, string_2):
     """
-    create a dictionary to store the 3 types of transformation of string:
+    create a dictionary to store the 3 types of transformation of string
+    Argument:
+    String
+    
+    Returns:
     - lower case
     - upper case
     - and combination
