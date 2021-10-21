@@ -17,7 +17,9 @@ Everyone follows the instructions in their script. Once you have pushed all your
 
 ### assignment_2b.py
 This file holds a function named `function_2b` which takes two string parameters.
-The output of this function is a dictionary with three keys: `L`, `U`, and `C`. The values for these keys are respectively are the first string in lower case, the second string in upper case and the combination of two strings. Try it out with the below example:
+The output of this function is a dictionary with three keys: `L`, `U`, and `C`. The values for these keys are respectively are the first string in lower case, the second string in upper case and the combination of two strings. 
+
+Try it out in your own terminal with the below example:
 
 ```
 > python
@@ -28,3 +30,19 @@ The output of this function is a dictionary with three keys: `L`, `U`, and `C`. 
 ```
 
 ### assignment_2c.py
+This file holds a function named `function_2c` which takes four integer parameters.
+The output of this function is a dictionary with four keys and their respective values:
+* `multiply` - second * third
+* `divide`   - second / third
+* `add`      - first + fourth
+* `subtract` - first - fourth
+
+Try it out in your own terminal with the below example:
+
+```
+> python
+> from assignment_2c import function_2c
+> dict = function_2c(1, 2, 3, 4)
+> print(dict.values())
+> print(dict['add'])
+```
