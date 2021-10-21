@@ -8,10 +8,12 @@ the following numbers and strings as input for the 2 functions:
 Run the script to see if you succeeded! PS: Multiple combinations are possible,
 just give a correct one.
 """
+help(function_2b)
+help(function_2c)
 
-var_1 = function_2b(5)
+var_1 = function_2c()
 
-var_2 = function_2c(...)
+var_2 = function_2b(Seminars, Borrel)
 
 var_3 = str(function_2b(...)) + function_2c(...)
 
