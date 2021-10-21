@@ -12,3 +12,8 @@ When you are finished, you split up for assignment 2. One of you opens 2a, the o
 Everyone follows the instructions in their script. Once you have pushed all your changes, continue.
 
 4. Create a pull request for me to this (original) repo. (Hint: you can use the "New pull request" button and then do a "compare across forks").
+
+Function 2c:
+This function performs mathematic operations on the given (4) integers. 
+It multiplies and divides the second and third arguments, and it adds and substracts the first and last arguments. 
+It returns a dictionary with the results of each operation. 
