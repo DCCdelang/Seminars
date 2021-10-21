@@ -1,10 +1,22 @@
 """
-Write a documentation for the simple function below. Your partner will have to
-implement the function, without knowing the code. Send your partner the
-documentation and see if he can work with it.
-No cheating! Don't show or tell hem the code directly
+This function performs mathematic operations on the given (4) integers. 
+It multiplies and divides the second and third arguments, and it adds and substracts the first and last arguments. 
+It returns a dictionary with the results of each operation. 
 """
 def function_2c(w, x, y, z):
+    """
+    Argument:
+    z -- int
+
+    x -- int
+
+    y -- int
+
+    z -- int
+
+    Returns:
+    results -- dictionary of the results of all operations
+    """
 
     multiplication = x * y
     division = x / y
