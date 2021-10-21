@@ -13,17 +13,17 @@ Everyone follows the instructions in their script. Once you have pushed all your
 
 4. Create a pull request for me to this (original) repo. (Hint: you can use the "New pull request" button and then do a "compare across forks").
 
-def function_2b(string_1, string_2):
+def function_2b(var1, var2):
 
     """
     create a dictionary to store the 3 types of transformation of string
     Dict: 'key':type of output
-    - 'L': lower case of string_1
-    - 'U': upper case of string_2
-    - 'C': combination of string_1 and string_2
+    - 'L': lower case of var1
+    - 'U': upper case of var2
+    - 'C': combination of var1 + var2
     
     Argument:
-    String_1, String_2
+    var1, var2
     
     Returns:
     - the distcionary
