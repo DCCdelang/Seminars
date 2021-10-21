@@ -45,7 +45,7 @@ def upper_case(string):
     string = list(lower_case(string))
     
     for index in range(len(string)):
-        string[index] = string[index].lower()
+        string[index] = string[index].upper()
    
     lower_string = "".join(string)
     ### your code ends here
