@@ -9,11 +9,18 @@ Run the script to see if you succeeded! PS: Multiple combinations are possible,
 just give a correct one.
 """
 
-var_1 = function_2b(...)
 
-var_2 = function_2c(...)
+""""
+Functions 2b and 2c were swapped in this file to make more sense of the output
+given the documentation and the expected output
 
-var_3 = str(function_2b(...)) + function_2c(...)
+"""
+var_1 = function_2c(1000, 5, 10, -50)["add"]
+
+
+var_2 = function_2b("Seminars", "Borrel")["C"]
+
+var_3 = str(function_2c(5, 10, 1000, -50)['multiply']) + str(function_2b("cls","")['C'])
 
 if var_1 == 950:
     print("Good job!")
