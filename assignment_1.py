@@ -38,14 +38,7 @@ def upper_case(lower_string):
     """
 
     ### your code starts here
-<<<<<<< Updated upstream
     string = lower_string.upper()
     ### your code ends here
 
     return string
-=======
-    upper_string = lower_string.upper()
-    ### your code ends here
-
-    return upper_string
->>>>>>> Stashed changes
