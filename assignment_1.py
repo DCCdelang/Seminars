@@ -38,11 +38,7 @@ def upper_case(string):
     """
 
     ### your code starts here
-<<<<<<< HEAD
-    upper_string = string.upper()
-=======
     lower_string = string.upper()
->>>>>>> 865349541354151e091359da1ce91502f1bd0744
     ### your code ends here
 
     return upper_string
