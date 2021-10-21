@@ -9,7 +9,7 @@ Run the script to see if you succeeded! PS: Multiple combinations are possible,
 just give a correct one.
 """
 
-var_1 = function_2b(...)
+var_1 = function_2b(5)
 
 var_2 = function_2c(...)
 
