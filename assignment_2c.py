@@ -4,6 +4,9 @@ implement the function, without knowing the code. Send your partner the
 documentation and see if he can work with it.
 No cheating! Don't show or tell hem the code directly
 """
+
+# Give 4 values.
+# Return dictionary with multiplication, division, addition and substraction of some of the values. 
 def function_2c(w, x, y, z):
 
     multiplication = x * y
