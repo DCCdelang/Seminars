@@ -14,11 +14,6 @@ def lower_case(string):
     lower_string -- lower case version of string
 
     """
-
-    ### your code starts here
-
-    ### your code ends here
-
     return string.lower()
 
 
@@ -36,9 +31,4 @@ def upper_case(string):
     upper_string -- upper case version of string
     
     """
-
-    ### your code starts here
-
-    ### your code ends here
-
     return string.upper()
