@@ -34,6 +34,6 @@ def function_2c(w, x, y, z):
 
     Returns:
     results -- Dictionary with results of x multiplied by y, x divided by y,
-    addition of w and z, z substracted of w 
+    addition of w and z, z substracted from w 
 
     """
