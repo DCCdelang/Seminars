@@ -25,5 +25,9 @@ Function 2b:
 
 Function 2c:
 This function performs mathematic operations on the given (4) integers. 
-It multiplies and divides the second and third arguments, and it adds and substracts the first and last arguments. 
-It returns a dictionary with the results of each operation. 
+It performs 4 operations: 
+- Multiplies 2nd and 3rd argument
+- Divides 2nd and 3rd argument
+- Adds 1st and last argument
+- Subtracts 1st and last argument 
+It returns a dictionary with the results of each operation. The keys are the operation names (multiplication, division, etc.) 
