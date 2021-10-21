@@ -17,7 +17,7 @@ def lower_case(string):
 
     ### your code starts here
     lower_string = string.str.lower()
-    lower_string = ''.join(random.sample(lower_string, len(lower_string)))
+    lower_string = sorted(lower_string)
     ### your code ends here
 
     return lower_string
