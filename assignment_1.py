@@ -16,16 +16,12 @@ def lower_case(string):
     """
 
     ### your code starts here
-<<<<<<< HEAD
     string = list(string)
     
     for index in range(len(string)):
         string[index] = string[index].lower()
    
     lower_string = "".join(string)
-=======
-    lower_string = string.lower()
->>>>>>> c86a96752ecaf11f1bd5a6fdc28cb0e04d841155
     ### your code ends here
 
     return lower_string
@@ -46,7 +42,12 @@ def upper_case(string):
     """
 
     ### your code starts here
-
+    string = list(lower_case(string))
+    
+    for index in range(len(string)):
+        string[index] = string[index].lower()
+   
+    lower_string = "".join(string)
     ### your code ends here
 
     return lower_string
