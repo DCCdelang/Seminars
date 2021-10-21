@@ -14,6 +14,7 @@ Everyone follows the instructions in their script. Once you have pushed all your
 4. Create a pull request for me to this (original) repo. (Hint: you can use the "New pull request" button and then do a "compare across forks").
 
 def function_2b(string_1, string_2):
+
     """
     create a dictionary to store the 3 types of transformation of string
     Argument:
@@ -26,6 +27,7 @@ def function_2b(string_1, string_2):
     """
 
 def function_2c(w, x, y, z):
+
     """
     Argument:
     w, x, y, z -- integers you want to multiply, divide, add, substract
