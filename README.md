@@ -12,3 +12,19 @@ When you are finished, you split up for assignment 2. One of you opens 2a, the o
 Everyone follows the instructions in their script. Once you have pushed all your changes, continue.
 
 4. Create a pull request for me to this (original) repo. (Hint: you can use the "New pull request" button and then do a "compare across forks").
+
+## Documentation
+
+### assignment_2b.py
+This file holds a function named `function_2b` which takes two string parameters.
+The output of this function is a dictionary with three keys: `L`, `U`, and `C`. The values for these keys are respectively are the first string in lower case, the second string in upper case and the combination of two strings. Try it out with the below example:
+
+```
+> python
+> from assignment_2b import function_2b
+> dict = function_2b('ONE', 'two')
+> print(dict.values())
+> print(dict['L'])
+```
+
+### assignment_2c.py
