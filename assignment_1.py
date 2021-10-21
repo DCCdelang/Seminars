@@ -4,7 +4,7 @@ Finish the lower_case function and push your changes to the Github repository.
 The fastest one to push is lucky, the others will most likely get a merge
 conflict. See if you can fix it :)
 """
-
+import random
 def lower_case(string):
     """
     Argument:
@@ -16,7 +16,8 @@ def lower_case(string):
     """
 
     ### your code starts here
-
+    lower_string = string.str.lower()
+    lower_string = ''.join(random.sample(lower_string, len(lower_string)))
     ### your code ends here
 
     return lower_string
@@ -38,7 +39,8 @@ def upper_case(string):
     """
 
     ### your code starts here
+    upper_string = string.str.upper()
 
     ### your code ends here
 
-    return lower_string
+    return upper_string
