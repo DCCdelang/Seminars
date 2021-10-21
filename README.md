@@ -29,11 +29,10 @@ def function_2b(string_1, string_2):
 def function_2c(w, x, y, z):
 
     """
-    Argument:
+    Arguments:
     w, x, y, z -- integers you want to multiply, divide, add, substract
 
     Returns:
-    results -- Dictionary with results of x multiplied by y, x divided by y,
-    addition of w and z, z substracted from w 
+    results -- Dictionary with key names: multiply, divide, add, substract
 
     """
