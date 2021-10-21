@@ -15,7 +15,7 @@ def function_2b(string_1, string_2):
     dictionary {
         "L": lower case version of string_1,
         "U": upper case version of string_2,
-        "C": lower case version of string_1 with upper case version of string_2 added
+        "C": combines string_1 and string_2
     }
     
     """
