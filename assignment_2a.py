@@ -11,11 +11,11 @@ just give a correct one.
 help(function_2b)
 help(function_2c)
 
-var_1 = function_2c()
+var_1 = function_2c(1000, 5, -5, 50)['subtract']
 
-var_2 = function_2b(Seminars, Borrel)
+var_2 = function_2b('Seminars', 'Borrel')['C']
 
-var_3 = str(function_2b(...)) + function_2c(...)
+var_3 = str(function_2c(5, 10, 1000, 5)['multiply']) + function_2b('CLs', 'borrel')['L']
 
 if var_1 == 950:
     print("Good job!")
