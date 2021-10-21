@@ -1,4 +1,4 @@
-# Seminars
+# Seminars (All documents have been modified in Wiki)
 Assignment for Seminars Lecture on Team-based Coding Projects
 
 Instructions:
