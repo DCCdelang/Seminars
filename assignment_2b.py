@@ -6,12 +6,26 @@ No cheating! Don't show or tell hem the code directly
 """
 def function_2b(string_1, string_2):
 
+    """
+    Argument:
+    string_1 -- string
+    string_2 -- string
+
+    Returns:
+    dictionary {
+        "L": lower case version of string_1,
+        "U": upper case version of string_2,
+        "C": lower case version of string_1 with upper case version of string_2 added
+    }
+    
+    """
+
     lower = string_1.lower()
     upper = string_2.upper()
     combined = string_1 + string_2
 
-    dict = {"L": lower,
+    dictionary = {"L": lower,
                "U": upper,
                "C": combined}
 
-    return dict
+    return dictionary
