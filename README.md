@@ -39,6 +39,6 @@ def function_2c(w, x, y, z):
     results -- Dictionary key: value
             key names: multiply, divide, add, substract.
             values: x multiplied by y, x divided by y, addition of w and z, 
-            z substracted of w 
+            z substracted from w 
 
     """

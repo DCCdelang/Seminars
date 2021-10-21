@@ -8,11 +8,11 @@ def function_2c(w, x, y, z):
     """
 
     Argument:
-    w, x, y, z -- integers you want to multiply, divide, add, substract
+    w, x, y, z -- variables you want to multiply, divide, add, substract
 
     Returns:
     results -- Dictionary with results of x multiplied by y, x divided by y, 
-    addition of w and z, z substracted of w 
+    addition of w and z, z substracted from w 
 
     """
 
