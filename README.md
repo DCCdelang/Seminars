@@ -33,9 +33,12 @@ def function_2c(w, x, y, z):
 
     """
     Arguments:
-    w, x, y, z -- integers you want to multiply, divide, add, substract
+    w, x, y, z -- variables you want to multiply, divide, add, substract
 
     Returns:
-    results -- Dictionary with key names: multiply, divide, add, substract
+    results -- Dictionary key: value
+            key names: multiply, divide, add, substract.
+            values: x multiplied by y, x divided by y, addition of w and z, 
+            z substracted of w 
 
     """
