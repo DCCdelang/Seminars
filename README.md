@@ -12,3 +12,13 @@ When you are finished, you split up for assignment 2. One of you opens 2a, the o
 Everyone follows the instructions in their script. Once you have pushed all your changes, continue.
 
 4. Create a pull request for me to this (original) repo. (Hint: you can use the "New pull request" button and then do a "compare across forks").
+
+def function_2c(w, x, y, z):
+    """
+    Argument:
+    w, x, y, z -- integers you want to multiply, divide, add, substract
+
+    Returns:
+    results -- Dictionary with results of x multiplied by y, x divided by y, addition of w and z, z substracted of w 
+
+    """
