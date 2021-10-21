@@ -17,8 +17,6 @@ def lower_case(string):
 
     ### your code starts here
     lower_string = string.lower()
-
-    print("hello")
         
     ### your code ends here
 
