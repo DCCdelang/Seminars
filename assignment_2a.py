@@ -11,6 +11,12 @@ just give a correct one.
 
 var_1 = function_2b(...)
 
+'''
+function_2c takes 4 inputs (w, x, y, z), it multiplies x and y, divides x by y, 
+adds w and z, substracts z from w. It stores the results in a dictionary with 
+keys multiply, divide, add, substract respectively.
+'''
+
 var_2 = function_2c(...)
 
 var_3 = str(function_2b(...)) + function_2c(...)
