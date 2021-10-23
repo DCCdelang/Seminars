@@ -17,8 +17,7 @@ first one is the lowe case string, the second the upper case string
 and the third one is a combination of them.
 """
 
-dict1 = function_2b('Seminars', 'Borrel')
-var_2 = dict1['C']
+var_2 = function_2b('Seminars', 'Borrel')['C']
 
 
 '''
