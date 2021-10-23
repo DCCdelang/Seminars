@@ -9,6 +9,13 @@ Run the script to see if you succeeded! PS: Multiple combinations are possible,
 just give a correct one.
 """
 
+"""
+function_2b takes 2 strings as arguments
+it transforms the first string to a lower case string and the second one to an upper case string
+it returns a dictionary with 3 elements, first one is the lowe case string, the second the upper case string
+and the third one is a combination of them.
+"""
+
 var_1 = function_2b(...)
 
 var_2 = function_2c(...)
