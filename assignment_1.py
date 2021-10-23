@@ -27,17 +27,7 @@ experiences at least 1 merge conflict.
 """
 
 def upper_case(string):
-    """
-    Argument:
-    string -- text you want to turn into upper case
+    upper_string= string.upper()
+    return upper_string
 
-    Returns:
-    upper_string -- upper case version of string
-    
-    """
-
-    ### your code starts here
-
-    ### your code ends here
-
-    return lower_string
+print(upper_case("hello"))
