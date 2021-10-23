@@ -6,18 +6,7 @@ conflict. See if you can fix it :)
 """
 
 def lower_case(string):
-    """
-    Argument:
-    string -- text you want to turn into lower case
-
-    Returns:
-    lower_string -- lower case version of string
-
-    """
-
-    ### your code starts here
-
-    ### your code ends here
+    lower_string = lower(string)
 
     return lower_string
 
