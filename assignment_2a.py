@@ -15,24 +15,25 @@ it transforms the first string to a lower case string and the second one to an u
 it returns a dictionary with 3 elements, first one is the lowe case string, the second the upper case string
 and the third one is a combination of them.
 """
+#var_2 = function_2b(...)
 
-var_1 = function_2b(...)
 
 '''
 function_2c takes 4 inputs (w, x, y, z), it multiplies x and y, divides x by y, 
 adds w and z, substracts z from w. It stores the results in a dictionary with 
 keys multiply, divide, add, substract respectively.
 '''
+var_1 = function_2c(1000,10,100,-50)['add']
 
-var_2 = function_2c(...)
 
-var_3 = str(function_2b(...)) + function_2c(...)
-
+#var_3 = str(function_2b(...)) + function_2c(...)
+print(var_1)
 if var_1 == 950:
     print("Good job!")
-
+"""
 if var_2 == "SeminarsBorrel":
     print("Well done!")
 
 if var_3 == "10000cls":
     print("Excellent!")
+"""
