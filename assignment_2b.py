@@ -5,13 +5,24 @@ documentation and see if he can work with it.
 No cheating! Don't show or tell hem the code directly
 """
 def function_2b(string_1, string_2):
-
+    """Transform string_1 to upper case, string 2 to lower_case, 
+    and combine both into a single string
+    
+    Args:
+        string_1 (str): String to transform to upper case
+        string_2 (str): String to transform to lower case
+    
+    Returns:
+        dict: Dict containing upper, lower, and concatened strs
+    """
     lower = string_1.lower()
     upper = string_2.upper()
     combined = string_1 + string_2
-
-    dict = {"L": lower,
-               "U": upper,
-               "C": combined}
+    
+    dict = {
+        "L": lower,
+        "U": upper,
+        "C": combined
+    }
 
     return dict
