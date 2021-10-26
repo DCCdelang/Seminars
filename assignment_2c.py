@@ -5,7 +5,17 @@ documentation and see if he can work with it.
 No cheating! Don't show or tell hem the code directly
 """
 def function_2c(w, x, y, z):
-
+    """Compute various arithmetic operations on input
+    
+    Args:
+        w (float): Input number
+        x (float): Input number
+        y (float): Input number
+        z (float): Input number
+    
+    Returns:
+        dict: Dictionary containing x * y, x / y, w + z, w -z 
+    """
     multiplication = x * y
     division = x / y
     addition = w + z
