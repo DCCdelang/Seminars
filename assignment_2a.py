@@ -12,11 +12,11 @@ just give a correct one.
 number = [5, 10, 100, 1000, -50]
 string =  ['seminars', 'Seminars', 'CLS', 'cLs', 'Borrel']
 
-var_1 = function_2b(string[0], string[1])
+var_2 = function_2b(string[1], string[4])["C"]
 
-var_2 = function_2c(number[0], number[1], number[2], number[3])
+var_1 = function_2c(number[3], number[1], number[2], number[4])["add"]
 
-var_3 = str(function_2b(string[0], string[1])) + function_2c(number[0], number[1], number[2], number[3])
+var_3 = str(function_2c(number[1], number[1], number[3], number[3])["multiply"]) + str(function_2b(string[3], string[3])["L"])
 
 if var_1 == 950:
     print("Good job!")
