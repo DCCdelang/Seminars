@@ -1,11 +1,26 @@
-"""
-Write a documentation for the simple function below. Your partner will have to
-implement the function, without knowing the code. Send your partner the
-documentation and see if he can work with it.
-No cheating! Don't show or tell hem the code directly
-"""
 def function_2c(w, x, y, z):
+    """
+    Description
+    -----------
+    Function takes 4 floats/integers and returns some 
+    arithmetic results of combining them in different ways
+    
+    Input
+    -----
+    w: float
+    x: float
+    y: float
+    z: float
 
+    Returns
+    -------
+    results: dict
+            dictionary keys
+            'multiply': multiply of x,y
+            'divide': devide x by y
+            'add': add w,z
+            'subtract': subtract z from w
+    """
     multiplication = x * y
     division = x / y
     addition = w + z
