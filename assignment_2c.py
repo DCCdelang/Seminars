@@ -4,6 +4,8 @@ implement the function, without knowing the code. Send your partner the
 documentation and see if he can work with it.
 No cheating! Don't show or tell hem the code directly
 """
+
+
 def function_2c(w, x, y, z):
 
     multiplication = x * y
