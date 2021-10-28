@@ -13,12 +13,32 @@ Everyone follows the instructions in their script. Once you have pushed all your
 
 4. Create a pull request for me to this (original) repo. (Hint: you can use the "New pull request" button and then do a "compare across forks").
 
-def function_2c(w, x, y, z):
+def function_2b(var1, var2):
+
     """
+    create a dictionary to store the 3 types of transformation of string
+    Dict: 'key':type of output
+    - 'L': lower case of var1
+    - 'U': upper case of var2
+    - 'C': combination of var1 + var2
+    
     Argument:
-    w, x, y, z -- integers you want to multiply, divide, add, substract
+    var1, var2
+    
+    Returns:
+    - the distcionary
+    """
+
+def function_2c(w, x, y, z):
+
+    """
+    Arguments:
+    w, x, y, z -- variables you want to multiply, divide, add, substract
 
     Returns:
-    results -- Dictionary with results of x multiplied by y, x divided by y, addition of w and z, z substracted of w 
+    results -- Dictionary key: value
+            key names: multiply, divide, add, substract.
+            values: x multiplied by y, x divided by y, addition of w and z, 
+            z substracted from w 
 
     """
