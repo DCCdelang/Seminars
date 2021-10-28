@@ -27,3 +27,7 @@ def function_2c(w, x, y, z):
                "subtract": subtraction}
 
     return results
+
+    nump = function_2c("w", "x", "y", "z")
+
+    print(numby["multiply"])
