@@ -7,9 +7,9 @@ No cheating! Don't show or tell hem the code directly
 def function_2b(string_1, string_2):
     """
     create a dictionary to store the 3 types of transformation of string:
-    - lower case
-    - upper case
-    - and combination
+    - 'L': lower case of string_1
+    - 'U': upper case of string_2
+    - 'C': combination of string_1 and string_2
     """
 
     lower = string_1.lower()
