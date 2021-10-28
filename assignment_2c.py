@@ -5,15 +5,6 @@ documentation and see if he can work with it.
 No cheating! Don't show or tell hem the code directly
 """
 
-"""
-
-function_2c(w,x,y,z)
-Return value - dictionary with key value pairs
-key -> algebraic operations("multiply","divide","add","subtract")
-values -> x*y,x/y,w+z,w-z
-
-""""
-
 
 def function_2c(w, x, y, z):
 
