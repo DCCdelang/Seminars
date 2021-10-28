@@ -33,18 +33,18 @@ values -> x*y,x/y,w+z,w-z
 """
 
 
+s1 = "Seminars"
+s2 = "Borrel"
 
-var_1 = function_2b(...)
+w, x, y, z = 5, 10, 100, 1000
 
-var_2 = function_2c(...)
+var_1 = function_2b(s1, s2)
 
-var_3 = str(function_2b(...)) + function_2c(...)
+var_2 = function_2c(w, x, y, z)
 
-if var_1 == 950:
-    print("Good job!")
-
-if var_2 == "SeminarsBorrel":
-    print("Well done!")
-
-if var_3 == "10000cls":
-    print("Excellent!")
+assert var_1['L'] == "seminars"
+assert var_1['U'] == "BORREL"
+assert var_2['multiply'] == x * y
+assert var_2['divide'] == x / y
+assert var_2['add'] == w + z
+assert var_2['subtract'] == w - z
