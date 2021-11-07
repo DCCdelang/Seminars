@@ -6,6 +6,7 @@ conflict. See if you can fix it :)
 """
 
 def lower_case(string):
+
     """
     Argument:
     string -- text you want to turn into lower case
@@ -15,9 +16,7 @@ def lower_case(string):
 
     """
 
-    ### your code starts here
-
-    ### your code ends here
+    lower_string = string.lower()
 
     return lower_string
 
@@ -28,17 +27,8 @@ experiences at least 1 merge conflict.
 """
 
 def upper_case(string):
-    """
-    Argument:
-    string -- text you want to turn into upper case
+    upper_string= string.upper()
+    return upper_string
 
-    Returns:
-    upper_string -- upper case version of string
-    
-    """
+print(upper_case("hello"))
 
-    ### your code starts here
-
-    ### your code ends here
-
-    return lower_string
